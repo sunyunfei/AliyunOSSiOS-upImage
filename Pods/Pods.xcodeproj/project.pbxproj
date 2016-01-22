@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D15EA9E929161D4171158FC8013AC83 /* OSSHTTPDNSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E051621F7C156917B992AB2AC74933EB /* OSSHTTPDNSTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7A03DEF1B7A2328DF793D17FAD7FF7 /* OSSHTTPDNSOrigin.h in Headers */ = {isa = PBXBuildFile; fileRef = CB0FA84DD6AF226ED8A9664EA4FC1FF0 /* OSSHTTPDNSOrigin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20EA2251173CF57F0E762F3F9D15D7E3 /* OSSExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 00099F3C448E182AFF14F5E11C536EFC /* OSSExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21C25100ECA785DDF04F31A9891CEE9E /* OSSBoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = D78A2A6A4E9FCA7C2D7D12C26573CFBD /* OSSBoltsVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22AC9731B002126A15FB7FFA4F71EDD3 /* OSSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92231B6FC65AC4CBCB9165A85645F9 /* OSSTaskCompletionSource.m */; };
+		23712CED2B7BA76515FCC114DBA29908 /* OSSCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 70443684FA478B0B1F4A7D9A40C65691 /* OSSCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB970426A5B810A2822AAD053E74E72 /* OSSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B219C3032A54A08157E9A86B1747B /* OSSXMLDictionary.m */; };
+		36F670CD3C6374DB25E0D3447D346285 /* OSSCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C76548ED3B996ABBD30AAADB9EA7413 /* OSSCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B254FD4B402C99F5415EEF518BEC8F /* OSSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D3C3576385497678C4EB1B1239D1 /* OSSLog.m */; };
+		3C7BB047209B6DB0066ED73ABEB50D18 /* OSSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D5DC02ACB7330A1C224061774DFD9B /* OSSCancellationTokenSource.m */; };
+		565037682873AC62BA677D1716892723 /* OSSClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F777351B01491FE7C80F638E28A19E1B /* OSSClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59930754A5D559BF40AF1BF90B8B35DA /* OSSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = B46E4D822517545A41BC246C54E454DA /* OSSLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3A3723AF799A93A45A60BDBDD718E7 /* OSSBolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 667A9DE4613F29C95382EB9079D0814C /* OSSBolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E83222E3F5B71D37D04158010B574EF /* OSSTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D72D9A47C88252F80EFFEF02444C46D /* OSSTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		637CE7389941B687803D106E92AD29EF /* OSSTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9503D71EC6422A7B0760BD54E2A2ED70 /* OSSTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64572E33682CFFC5281DFC8E9F8C25C0 /* OSSModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C77C37FE9408CEB6D32DC28A3897F2A8 /* OSSModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F13D562662E52BA33F7F415A39BEDA /* OSSDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F68FE674BBE960CBED7AED11D2DC83 /* OSSDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6963AC539C57024BF52C999CCD52BCDB /* OSSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAF5BCDF6B283E625D34E604AF9E6B8 /* OSSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDD6C731B3F8B0205895553CF178EEF /* OSSCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = CF62920AC876C869AD5B18DF1D1D8AAE /* OSSCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776969E20A087C30A59CDC9388C98746 /* OSSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 76432C4611F49501CB66F120E8F8F4B7 /* OSSExecutor.m */; };
+		776E3FA3AB0C4B190E97CB6ABBCF59BC /* OSSXMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = D1249672285DC9E44F03394B50690249 /* OSSXMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8144BAC4D1B9259E1B7FA3120B90A5EF /* OSSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBBF16A890527FE6E32E7F645442C94 /* OSSUtil.m */; };
+		8341B9B4D506DC5B0A77AE5458D7CA14 /* AliyunOSSiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D3136AE49F6454848D60E88C837C94 /* AliyunOSSiOS-dummy.m */; };
+		8942C456BCEBBAA2CD9C70BB977E1617 /* OSSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = C11724EF38EC9A20B3285157BFD5358D /* OSSBolts.m */; };
+		8EBDF1B1BA7D2DD140856DF12F869044 /* OSSHTTPDNSCacheTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 105C4096CA948E7DBAB303E63A858D98 /* OSSHTTPDNSCacheTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		906A032DEFDB4113299CD9BE40771A50 /* OSSHTTPDNSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F6DFE64F2F4996CE0B62C6B7064C24 /* OSSHTTPDNSTools.m */; };
+		9DD7A14BEF0D74F5D1B7A5E16CC052C3 /* OSSHTTPDNSCacheTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C668DDA0EB3A0268499C2358F92F4 /* OSSHTTPDNSCacheTable.m */; };
+		A3DE63536F2A373E13ABBD9F99C89B22 /* OSSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 184CDF170B380490170F7AE5F90D9822 /* OSSUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC2207499E4E044E25895638D6E8B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AEE95FF977DA497B453CD2488A4D2ACD /* OSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE350F48AEB7D3B3F4C7ADA4EE3DD6A3 /* OSSModel.m */; };
+		AFFE606C6CE8E493978C9BB3B342F704 /* OSSHTTPDNSMini.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1F318C8ECF784111B85BC2840A8E0A /* OSSHTTPDNSMini.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B13E50F7FB29CB3F4DBF126E1DBE1617 /* OSSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0DA523978AC7588700EF616C91CB48 /* OSSCancellationTokenRegistration.m */; };
+		B2182B1626F671FAADAA9300288F9C9A /* OSSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0B621B89B3027C3108A6B3FC171DF0 /* OSSNetworking.m */; };
+		B6FF79AF6463E3A6BF581C02994EC747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BFA3871B56FC67DCFCE827C7B1D216BA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		BFC847152C4246DA081CC67516A6D9D2 /* OSSHTTPDNSOrigin.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF4CE73871D02386CBEB3C7CEB284F4 /* OSSHTTPDNSOrigin.m */; };
+		D3C6A418A43461A0CE7A88E3BA880444 /* OSSService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF32D6B4D3EF17A0FC50B4DC2FD35C2 /* OSSService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17C2CC96BD5156EA9D05008E4A1C0C1 /* OSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F527C4C81D435E864B1E00109C500A4 /* OSSClient.m */; };
+		E48168DBC8D53BF14A8EA72BD15A12D5 /* OSSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A063D38ECBDFC613BDD167D6C7225CD /* OSSTask.m */; };
+		E765E78327E6C4056238E8B8E09E80F5 /* OSSHTTPDNSMini.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F98F1E86A7807439B5D2D871A23AB41 /* OSSHTTPDNSMini.m */; };
+		F2ECA3F3092B4CFFEB81B0EB4547B77B /* OSSCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D889F49065B26ACB7CBCBA6B0DE5B45 /* OSSCompat.m */; };
+		FEBAA2D2B63A4F448671F666E6C225A2 /* OSSCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = BF086BB28C997B26EF89E0D9C44D6FDE /* OSSCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFFFF1743F85C79F67EEE3B1FE3292E /* OSSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE692CD9DFA8C7DDD95E7FFF09056C2 /* OSSCancellationToken.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7449B682C6C9ED14CA28B6EEA080310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB9F52F8E121214652AA659044BA8669;
+			remoteInfo = AliyunOSSiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00099F3C448E182AFF14F5E11C536EFC /* OSSExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSExecutor.h; path = AliyunOSSiOS/OSSTask/OSSExecutor.h; sourceTree = "<group>"; };
+		0BE692CD9DFA8C7DDD95E7FFF09056C2 /* OSSCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationToken.m; path = AliyunOSSiOS/OSSTask/OSSCancellationToken.m; sourceTree = "<group>"; };
+		105C4096CA948E7DBAB303E63A858D98 /* OSSHTTPDNSCacheTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSHTTPDNSCacheTable.h; path = AliyunOSSiOS/httpdns/OSSHTTPDNSCacheTable.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		184CDF170B380490170F7AE5F90D9822 /* OSSUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSUtil.h; path = AliyunOSSiOS/OSSUtil.h; sourceTree = "<group>"; };
+		1C76548ED3B996ABBD30AAADB9EA7413 /* OSSCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationTokenSource.h; path = AliyunOSSiOS/OSSTask/OSSCancellationTokenSource.h; sourceTree = "<group>"; };
+		1FBBF16A890527FE6E32E7F645442C94 /* OSSUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSUtil.m; path = AliyunOSSiOS/OSSUtil.m; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		280C668DDA0EB3A0268499C2358F92F4 /* OSSHTTPDNSCacheTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSHTTPDNSCacheTable.m; path = AliyunOSSiOS/httpdns/OSSHTTPDNSCacheTable.m; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38D3136AE49F6454848D60E88C837C94 /* AliyunOSSiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunOSSiOS-dummy.m"; sourceTree = "<group>"; };
+		3DF32D6B4D3EF17A0FC50B4DC2FD35C2 /* OSSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSService.h; path = AliyunOSSiOS/OSSService.h; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		471768649E403913F741F62545FB5DB9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BBB2354D3D2F75048B79477A2C1E1A /* libAliyunOSSiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAliyunOSSiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D50D3C3576385497678C4EB1B1239D1 /* OSSLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSLog.m; path = AliyunOSSiOS/OSSLog.m; sourceTree = "<group>"; };
+		4D889F49065B26ACB7CBCBA6B0DE5B45 /* OSSCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCompat.m; path = AliyunOSSiOS/OSSCompat.m; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5A063D38ECBDFC613BDD167D6C7225CD /* OSSTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSTask.m; path = AliyunOSSiOS/OSSTask/OSSTask.m; sourceTree = "<group>"; };
+		5D72D9A47C88252F80EFFEF02444C46D /* OSSTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSTaskCompletionSource.h; path = AliyunOSSiOS/OSSTask/OSSTaskCompletionSource.h; sourceTree = "<group>"; };
+		667A9DE4613F29C95382EB9079D0814C /* OSSBolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSBolts.h; path = AliyunOSSiOS/OSSTask/OSSBolts.h; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6F527C4C81D435E864B1E00109C500A4 /* OSSClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSClient.m; path = AliyunOSSiOS/OSSClient.m; sourceTree = "<group>"; };
+		70443684FA478B0B1F4A7D9A40C65691 /* OSSCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationTokenRegistration.h; path = AliyunOSSiOS/OSSTask/OSSCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		709B219C3032A54A08157E9A86B1747B /* OSSXMLDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSXMLDictionary.m; path = AliyunOSSiOS/OSSXMLDictionary.m; sourceTree = "<group>"; };
+		76432C4611F49501CB66F120E8F8F4B7 /* OSSExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSExecutor.m; path = AliyunOSSiOS/OSSTask/OSSExecutor.m; sourceTree = "<group>"; };
+		7A1F318C8ECF784111B85BC2840A8E0A /* OSSHTTPDNSMini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSHTTPDNSMini.h; path = AliyunOSSiOS/httpdns/OSSHTTPDNSMini.h; sourceTree = "<group>"; };
+		85A934E79F7A453372E1A4AEE5D20A0D /* AliyunOSSiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunOSSiOS.xcconfig; sourceTree = "<group>"; };
+		87F68FE674BBE960CBED7AED11D2DC83 /* OSSDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSDefines.h; path = AliyunOSSiOS/OSSTask/OSSDefines.h; sourceTree = "<group>"; };
+		9503D71EC6422A7B0760BD54E2A2ED70 /* OSSTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSTask.h; path = AliyunOSSiOS/OSSTask/OSSTask.h; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9F98F1E86A7807439B5D2D871A23AB41 /* OSSHTTPDNSMini.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSHTTPDNSMini.m; path = AliyunOSSiOS/httpdns/OSSHTTPDNSMini.m; sourceTree = "<group>"; };
+		A0F6DFE64F2F4996CE0B62C6B7064C24 /* OSSHTTPDNSTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSHTTPDNSTools.m; path = AliyunOSSiOS/httpdns/OSSHTTPDNSTools.m; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		ACF4CE73871D02386CBEB3C7CEB284F4 /* OSSHTTPDNSOrigin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSHTTPDNSOrigin.m; path = AliyunOSSiOS/httpdns/OSSHTTPDNSOrigin.m; sourceTree = "<group>"; };
+		AF92231B6FC65AC4CBCB9165A85645F9 /* OSSTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSTaskCompletionSource.m; path = AliyunOSSiOS/OSSTask/OSSTaskCompletionSource.m; sourceTree = "<group>"; };
+		B46E4D822517545A41BC246C54E454DA /* OSSLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSLog.h; path = AliyunOSSiOS/OSSLog.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE0B621B89B3027C3108A6B3FC171DF0 /* OSSNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSNetworking.m; path = AliyunOSSiOS/OSSNetworking.m; sourceTree = "<group>"; };
+		BF086BB28C997B26EF89E0D9C44D6FDE /* OSSCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCancellationToken.h; path = AliyunOSSiOS/OSSTask/OSSCancellationToken.h; sourceTree = "<group>"; };
+		C11724EF38EC9A20B3285157BFD5358D /* OSSBolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSBolts.m; path = AliyunOSSiOS/OSSTask/OSSBolts.m; sourceTree = "<group>"; };
+		C77C37FE9408CEB6D32DC28A3897F2A8 /* OSSModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSModel.h; path = AliyunOSSiOS/OSSModel.h; sourceTree = "<group>"; };
+		CB0FA84DD6AF226ED8A9664EA4FC1FF0 /* OSSHTTPDNSOrigin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSHTTPDNSOrigin.h; path = AliyunOSSiOS/httpdns/OSSHTTPDNSOrigin.h; sourceTree = "<group>"; };
+		CF62920AC876C869AD5B18DF1D1D8AAE /* OSSCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSCompat.h; path = AliyunOSSiOS/OSSCompat.h; sourceTree = "<group>"; };
+		D1249672285DC9E44F03394B50690249 /* OSSXMLDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSXMLDictionary.h; path = AliyunOSSiOS/OSSXMLDictionary.h; sourceTree = "<group>"; };
+		D5D3BFFDA867824ACFA8BE5F5AB0BF20 /* AliyunOSSiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunOSSiOS-prefix.pch"; sourceTree = "<group>"; };
+		D78A2A6A4E9FCA7C2D7D12C26573CFBD /* OSSBoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSBoltsVersion.h; path = AliyunOSSiOS/OSSTask/OSSBoltsVersion.h; sourceTree = "<group>"; };
+		DE0DA523978AC7588700EF616C91CB48 /* OSSCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationTokenRegistration.m; path = AliyunOSSiOS/OSSTask/OSSCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		DE350F48AEB7D3B3F4C7ADA4EE3DD6A3 /* OSSModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSModel.m; path = AliyunOSSiOS/OSSModel.m; sourceTree = "<group>"; };
+		E051621F7C156917B992AB2AC74933EB /* OSSHTTPDNSTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSHTTPDNSTools.h; path = AliyunOSSiOS/httpdns/OSSHTTPDNSTools.h; sourceTree = "<group>"; };
+		E9D5DC02ACB7330A1C224061774DFD9B /* OSSCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSSCancellationTokenSource.m; path = AliyunOSSiOS/OSSTask/OSSCancellationTokenSource.m; sourceTree = "<group>"; };
+		EEAF5BCDF6B283E625D34E604AF9E6B8 /* OSSNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSNetworking.h; path = AliyunOSSiOS/OSSNetworking.h; sourceTree = "<group>"; };
+		F777351B01491FE7C80F638E28A19E1B /* OSSClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSSClient.h; path = AliyunOSSiOS/OSSClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53499C1D73E49523E21063A9E3203BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FF79AF6463E3A6BF581C02994EC747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A5107433EEEBD7932D674CBA0B07FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC2207499E4E044E25895638D6E8B80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0D9DAB1724FE26317DC5C0613B9C44D2 /* AliyunOSSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				667A9DE4613F29C95382EB9079D0814C /* OSSBolts.h */,
+				C11724EF38EC9A20B3285157BFD5358D /* OSSBolts.m */,
+				D78A2A6A4E9FCA7C2D7D12C26573CFBD /* OSSBoltsVersion.h */,
+				BF086BB28C997B26EF89E0D9C44D6FDE /* OSSCancellationToken.h */,
+				0BE692CD9DFA8C7DDD95E7FFF09056C2 /* OSSCancellationToken.m */,
+				70443684FA478B0B1F4A7D9A40C65691 /* OSSCancellationTokenRegistration.h */,
+				DE0DA523978AC7588700EF616C91CB48 /* OSSCancellationTokenRegistration.m */,
+				1C76548ED3B996ABBD30AAADB9EA7413 /* OSSCancellationTokenSource.h */,
+				E9D5DC02ACB7330A1C224061774DFD9B /* OSSCancellationTokenSource.m */,
+				F777351B01491FE7C80F638E28A19E1B /* OSSClient.h */,
+				6F527C4C81D435E864B1E00109C500A4 /* OSSClient.m */,
+				CF62920AC876C869AD5B18DF1D1D8AAE /* OSSCompat.h */,
+				4D889F49065B26ACB7CBCBA6B0DE5B45 /* OSSCompat.m */,
+				87F68FE674BBE960CBED7AED11D2DC83 /* OSSDefines.h */,
+				00099F3C448E182AFF14F5E11C536EFC /* OSSExecutor.h */,
+				76432C4611F49501CB66F120E8F8F4B7 /* OSSExecutor.m */,
+				105C4096CA948E7DBAB303E63A858D98 /* OSSHTTPDNSCacheTable.h */,
+				280C668DDA0EB3A0268499C2358F92F4 /* OSSHTTPDNSCacheTable.m */,
+				7A1F318C8ECF784111B85BC2840A8E0A /* OSSHTTPDNSMini.h */,
+				9F98F1E86A7807439B5D2D871A23AB41 /* OSSHTTPDNSMini.m */,
+				CB0FA84DD6AF226ED8A9664EA4FC1FF0 /* OSSHTTPDNSOrigin.h */,
+				ACF4CE73871D02386CBEB3C7CEB284F4 /* OSSHTTPDNSOrigin.m */,
+				E051621F7C156917B992AB2AC74933EB /* OSSHTTPDNSTools.h */,
+				A0F6DFE64F2F4996CE0B62C6B7064C24 /* OSSHTTPDNSTools.m */,
+				B46E4D822517545A41BC246C54E454DA /* OSSLog.h */,
+				4D50D3C3576385497678C4EB1B1239D1 /* OSSLog.m */,
+				C77C37FE9408CEB6D32DC28A3897F2A8 /* OSSModel.h */,
+				DE350F48AEB7D3B3F4C7ADA4EE3DD6A3 /* OSSModel.m */,
+				EEAF5BCDF6B283E625D34E604AF9E6B8 /* OSSNetworking.h */,
+				BE0B621B89B3027C3108A6B3FC171DF0 /* OSSNetworking.m */,
+				3DF32D6B4D3EF17A0FC50B4DC2FD35C2 /* OSSService.h */,
+				9503D71EC6422A7B0760BD54E2A2ED70 /* OSSTask.h */,
+				5A063D38ECBDFC613BDD167D6C7225CD /* OSSTask.m */,
+				5D72D9A47C88252F80EFFEF02444C46D /* OSSTaskCompletionSource.h */,
+				AF92231B6FC65AC4CBCB9165A85645F9 /* OSSTaskCompletionSource.m */,
+				184CDF170B380490170F7AE5F90D9822 /* OSSUtil.h */,
+				1FBBF16A890527FE6E32E7F645442C94 /* OSSUtil.m */,
+				D1249672285DC9E44F03394B50690249 /* OSSXMLDictionary.h */,
+				709B219C3032A54A08157E9A86B1747B /* OSSXMLDictionary.m */,
+				5EF39F71866587ED8886399AF1A29AEC /* Support Files */,
+			);
+			path = AliyunOSSiOS;
+			sourceTree = "<group>";
+		};
+		5EF39F71866587ED8886399AF1A29AEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A934E79F7A453372E1A4AEE5D20A0D /* AliyunOSSiOS.xcconfig */,
+				38D3136AE49F6454848D60E88C837C94 /* AliyunOSSiOS-dummy.m */,
+				D5D3BFFDA867824ACFA8BE5F5AB0BF20 /* AliyunOSSiOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AliyunOSSiOS";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E725CD562B9636C3831D73D3CDF5BD30 /* Pods */,
+				F638CB2E66A1978D892032A9DBE4AFC3 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E725CD562B9636C3831D73D3CDF5BD30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DAB1724FE26317DC5C0613B9C44D2 /* AliyunOSSiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F638CB2E66A1978D892032A9DBE4AFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BBB2354D3D2F75048B79477A2C1E1A /* libAliyunOSSiOS.a */,
+				471768649E403913F741F62545FB5DB9 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60957C71EB6618E9E2686C05CF093629 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3A3723AF799A93A45A60BDBDD718E7 /* OSSBolts.h in Headers */,
+				21C25100ECA785DDF04F31A9891CEE9E /* OSSBoltsVersion.h in Headers */,
+				FEBAA2D2B63A4F448671F666E6C225A2 /* OSSCancellationToken.h in Headers */,
+				23712CED2B7BA76515FCC114DBA29908 /* OSSCancellationTokenRegistration.h in Headers */,
+				36F670CD3C6374DB25E0D3447D346285 /* OSSCancellationTokenSource.h in Headers */,
+				565037682873AC62BA677D1716892723 /* OSSClient.h in Headers */,
+				6FDD6C731B3F8B0205895553CF178EEF /* OSSCompat.h in Headers */,
+				64F13D562662E52BA33F7F415A39BEDA /* OSSDefines.h in Headers */,
+				20EA2251173CF57F0E762F3F9D15D7E3 /* OSSExecutor.h in Headers */,
+				8EBDF1B1BA7D2DD140856DF12F869044 /* OSSHTTPDNSCacheTable.h in Headers */,
+				AFFE606C6CE8E493978C9BB3B342F704 /* OSSHTTPDNSMini.h in Headers */,
+				1F7A03DEF1B7A2328DF793D17FAD7FF7 /* OSSHTTPDNSOrigin.h in Headers */,
+				0D15EA9E929161D4171158FC8013AC83 /* OSSHTTPDNSTools.h in Headers */,
+				59930754A5D559BF40AF1BF90B8B35DA /* OSSLog.h in Headers */,
+				64572E33682CFFC5281DFC8E9F8C25C0 /* OSSModel.h in Headers */,
+				6963AC539C57024BF52C999CCD52BCDB /* OSSNetworking.h in Headers */,
+				D3C6A418A43461A0CE7A88E3BA880444 /* OSSService.h in Headers */,
+				637CE7389941B687803D106E92AD29EF /* OSSTask.h in Headers */,
+				5E83222E3F5B71D37D04158010B574EF /* OSSTaskCompletionSource.h in Headers */,
+				A3DE63536F2A373E13ABBD9F99C89B22 /* OSSUtil.h in Headers */,
+				776E3FA3AB0C4B190E97CB6ABBCF59BC /* OSSXMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		719DAB2234569D91156A9890B50F318D /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3B21ED10F2DE09B2E2B74B32F7A538 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				505AB69826FA0EF095F5ADC0CAFC9C46 /* Sources */,
+				59A5107433EEEBD7932D674CBA0B07FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383782672BD1823CE586FBDDBCADA5A1 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 471768649E403913F741F62545FB5DB9 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB9F52F8E121214652AA659044BA8669 /* AliyunOSSiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01695053DFDCFB99AAF0E00D808921F /* Build configuration list for PBXNativeTarget "AliyunOSSiOS" */;
+			buildPhases = (
+				D0AF7E70AA425FC419666CFE984D9EAF /* Sources */,
+				53499C1D73E49523E21063A9E3203BC9 /* Frameworks */,
+				60957C71EB6618E9E2686C05CF093629 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliyunOSSiOS;
+			productName = AliyunOSSiOS;
+			productReference = 49BBB2354D3D2F75048B79477A2C1E1A /* libAliyunOSSiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F638CB2E66A1978D892032A9DBE4AFC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB9F52F8E121214652AA659044BA8669 /* AliyunOSSiOS */,
+				719DAB2234569D91156A9890B50F318D /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505AB69826FA0EF095F5ADC0CAFC9C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA3871B56FC67DCFCE827C7B1D216BA /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AF7E70AA425FC419666CFE984D9EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8341B9B4D506DC5B0A77AE5458D7CA14 /* AliyunOSSiOS-dummy.m in Sources */,
+				8942C456BCEBBAA2CD9C70BB977E1617 /* OSSBolts.m in Sources */,
+				FFFFFF1743F85C79F67EEE3B1FE3292E /* OSSCancellationToken.m in Sources */,
+				B13E50F7FB29CB3F4DBF126E1DBE1617 /* OSSCancellationTokenRegistration.m in Sources */,
+				3C7BB047209B6DB0066ED73ABEB50D18 /* OSSCancellationTokenSource.m in Sources */,
+				E17C2CC96BD5156EA9D05008E4A1C0C1 /* OSSClient.m in Sources */,
+				F2ECA3F3092B4CFFEB81B0EB4547B77B /* OSSCompat.m in Sources */,
+				776969E20A087C30A59CDC9388C98746 /* OSSExecutor.m in Sources */,
+				9DD7A14BEF0D74F5D1B7A5E16CC052C3 /* OSSHTTPDNSCacheTable.m in Sources */,
+				E765E78327E6C4056238E8B8E09E80F5 /* OSSHTTPDNSMini.m in Sources */,
+				BFC847152C4246DA081CC67516A6D9D2 /* OSSHTTPDNSOrigin.m in Sources */,
+				906A032DEFDB4113299CD9BE40771A50 /* OSSHTTPDNSTools.m in Sources */,
+				37B254FD4B402C99F5415EEF518BEC8F /* OSSLog.m in Sources */,
+				AEE95FF977DA497B453CD2488A4D2ACD /* OSSModel.m in Sources */,
+				B2182B1626F671FAADAA9300288F9C9A /* OSSNetworking.m in Sources */,
+				E48168DBC8D53BF14A8EA72BD15A12D5 /* OSSTask.m in Sources */,
+				22AC9731B002126A15FB7FFA4F71EDD3 /* OSSTaskCompletionSource.m in Sources */,
+				8144BAC4D1B9259E1B7FA3120B90A5EF /* OSSUtil.m in Sources */,
+				2CB970426A5B810A2822AAD053E74E72 /* OSSXMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		383782672BD1823CE586FBDDBCADA5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunOSSiOS;
+			target = AB9F52F8E121214652AA659044BA8669 /* AliyunOSSiOS */;
+			targetProxy = E7449B682C6C9ED14CA28B6EEA080310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		214E2E194B69359D81212671F7E6D0F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C724A2F95930D2DAD80EF3F2F36FCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A934E79F7A453372E1A4AEE5D20A0D /* AliyunOSSiOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D84C1103992AFD1F41A6EEAACC036621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A934E79F7A453372E1A4AEE5D20A0D /* AliyunOSSiOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunOSSiOS/AliyunOSSiOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E06CD3551CC60BB8EDC2425C532C3EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3B21ED10F2DE09B2E2B74B32F7A538 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214E2E194B69359D81212671F7E6D0F2 /* Debug */,
+				E06CD3551CC60BB8EDC2425C532C3EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01695053DFDCFB99AAF0E00D808921F /* Build configuration list for PBXNativeTarget "AliyunOSSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C724A2F95930D2DAD80EF3F2F36FCC9 /* Debug */,
+				D84C1103992AFD1F41A6EEAACC036621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
